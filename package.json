@@ -1,0 +1,26 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"private": true,
+	"name": "unicode-explorer",
+	"version": "0.0.0",
+	"scripts": {
+		"build": "vite build",
+		"start": "vite"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.18",
+		"@types/react": "^18.0.26",
+		"@types/react-dom": "^18.0.10",
+		"@types/web": "^0.0.87",
+		"@vitejs/plugin-legacy": "^3.0.1",
+		"@vitejs/plugin-react": "^3.0.1",
+		"prettier": "^2.8.2",
+		"prettier-plugin-organize-imports": "^3.2.1",
+		"typescript": "^4.9.4",
+		"vite": "^4.0.4"
+	}
+}

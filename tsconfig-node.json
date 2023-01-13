@@ -1,0 +1,11 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"composite": true,
+		"lib": ["ESNext"],
+		"module": "CommonJS",
+		"types": ["node"]
+	},
+	"extends": "./tsconfig.json",
+	"include": ["vite.config.ts"]
+}
